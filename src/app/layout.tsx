@@ -41,7 +41,7 @@ export default function RootLayout({
             <ThemeToggle></ThemeToggle>
           </div>
 
-          <section className="container">{children}</section>
+          <section className="sm:container">{children}</section>
         </ThemeProvider>
       </body>
     </html>
