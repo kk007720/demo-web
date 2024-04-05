@@ -9,8 +9,8 @@ export function SimpleProfile() {
         <Image
           src={'/personal.jpg'}
           alt="avatar"
-          width={600}
-          height={250}
+          width={860}
+          height={680}
           className="w-auto h-auto shadow-box rounded-xl"
         />
         {/* 使用group作为父容器的类以便于子元素根据父容器宽度变化应用样式 */}
