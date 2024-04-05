@@ -13,10 +13,7 @@ export function SimpleProfile() {
           height={250}
           className="w-auto h-auto shadow-box rounded-xl"
         />
-        {/* 使用group作为父容器的类以便于子元素根据父容器宽度变化应用样式 */}
-        <div
-          className={`bg-blockBg h-[80%] w-[54%] p-12 my-auto shadow-box absolute md:left-[45%] sm:left-[55%] left-[65%] top-[10%]  `}
-        >
+        <div className="bg-blockBg h-[80%] max-h-[200px] w-[54%] max-w-[300px] p-12 my-auto shadow-box absolute sm:left-[55%] left-[65%] top-[10%] sm:max-w-[400px] md:left-[45%] md:max-w-[500px]">
           <CodeBlinking />
         </div>
       </div>
