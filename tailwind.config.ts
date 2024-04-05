@@ -58,6 +58,10 @@ const config = {
           DEFAULT: 'hsl(var(--mainBg))',
           foreground: 'hsl(var(--mainBg-foreground))',
         },
+        blockBg: {
+          DEFAULT: 'hsl(var(--blockBg))',
+          foreground: 'hsl(var(--blockBg-foreground))',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',
