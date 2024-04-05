@@ -3,11 +3,9 @@ import { CodeBlinking } from '@/components/code-blinking';
 
 export function SimpleProfile() {
   return (
-    <section className="">
-      <div className="font-bold text-2xl sm:text-3xl mb-4 p-8 sm:p-10 ">
-        郭家銘
-      </div>
-      <div className="flex w-full relative">
+    <section className="p-8 sm:p-10 ">
+      <div className="font-bold text-2xl sm:text-3xl mb-4">郭家銘</div>
+      <div className="grid sm:grid-cols-2 grid-cols-1 gap-2 sm:gap-4">
         <Image
           src={'/personal.jpg'}
           alt="avatar"
@@ -17,7 +15,7 @@ export function SimpleProfile() {
         />
         {/* 使用group作为父容器的类以便于子元素根据父容器宽度变化应用样式 */}
         <div
-          className={`bg-blockBg h-[80%] max-h-[30rem] w-[50%] max-w-[43rem] p-12 my-auto shadow-box fixed left-[45%] top-[21%]`}
+          className={`bg-blockBg p-4 my-auto shadow-box text-sm sm:text-base`}
         >
           <CodeBlinking />
         </div>
