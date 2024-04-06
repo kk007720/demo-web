@@ -1,17 +1,22 @@
 import { CodeBlinking } from '@/components/code-blinking';
 import { Button } from '@/components/ui/button';
-import { Github, Instagram, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
 
 const SocialMediaSection = () => {
   return (
     <div className="flex flex-wrap gap-3 items-center">
-      <Github className="w-5 h-5 cursor-pointer" />
+      <Link href="https://github.com/kk007720/demo-web" target="_blank">
+        <Github className="w-5 h-5 cursor-pointer" />
+      </Link>
 
-      <Linkedin className="w-5 h-5 cursor-pointer" />
-
-      <Instagram className="h-5 w-5 cursor-pointer" />
+      <Link
+        href="https://www.linkedin.com/in/chia-ming-kuo-9bb963157/"
+        target="_blank"
+      >
+        <Linkedin className="w-5 h-5 cursor-pointer" />
+      </Link>
     </div>
   );
 };
@@ -20,13 +25,13 @@ const QuickIntroSection = () => {
   return (
     <div className="my-4 tracking-wider leading-8">
       <span>
-        我畢業於臺北科技大學資訊工程系，擁有
+        畢業於國立臺北科技大學資訊工程系，擁有
         <span className="font-bold">豐富的web開發經驗以及生成式AI應用經驗</span>
         ，包括使用PHP、
         <span className="font-bold">React.jS</span>
         <span className="font-bold">、TypeScript、Next.js</span>、Node.js 以及
         <span className="font-bold">企業級Open AI, Google Gemini</span>
-        。曾任職於正隆公司開發多個系統，並於帆宣集團之宜眾股份有限公司負責開發台北市教育局智慧平台，
+        。於任職期間曾開發過ERP、員工福利系統、倉儲系統Barcode等等，並於2020起負責開發台北市教育局AI智慧平台，
         <span className="font-bold">擅長解決問題並創新應用AI solutions。</span>
       </span>
     </div>
@@ -55,7 +60,7 @@ const ButtonSection = () => {
 export function SimpleProfile() {
   return (
     <section className="p-6 sm:p-8 ">
-      <div className="font-bold text-2xl sm:text-3xl mb-4">Kuo CHia Ming</div>
+      <h1 className="font-bold text-2xl sm:text-3xl mb-4">Kuo CHia Ming</h1>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-2 sm:gap-4">
         <Image
           src={'/personal.jpg'}
@@ -72,7 +77,7 @@ export function SimpleProfile() {
         >
           <CodeBlinking />
           <div className="flex gap-4 my-4">
-            <div className="font-bold text-2xl sm:text-3xl">Kuo Chia Ming</div>
+            <h1 className="font-bold text-2xl sm:text-3xl">Kuo Chia Ming</h1>
             <SocialMediaSection />
           </div>
 
