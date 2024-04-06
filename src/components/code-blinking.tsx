@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 
 export function CodeBlinking() {
   const texts = [
-    'Next, Tailwind css, TypeScript, React',
-    'shadcdn/ui, lucide-react, prisma',
-    'Thanks For browsing!',
-  ]; // 要轮流显示的文本数组
+    'Next, React, ...',
+    'TypeScript, Tailwind css...',
+    'Php, Html, Javascript ...',
+  ];
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -50,8 +50,8 @@ export function CodeBlinking() {
   return (
     <div className="flex items-center flex-wrap text-xs">
       <span>
-        &lt;<span className="text-green-500 font-bold">code</span>&gt; Website
-        tech: <span className="font-bold">{text}</span>
+        &lt;<span className="text-green-500 font-bold">code</span>&gt; Familiar
+        Tech: <span className="font-bold">{text}</span>
         {showCursor && <span className="cursor">|</span>}
       </span>
       <span>
