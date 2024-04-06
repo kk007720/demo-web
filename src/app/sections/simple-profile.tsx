@@ -62,11 +62,13 @@ export function SimpleProfile() {
           alt="avatar"
           width={860}
           height={680}
-          className="w-full h-auto shadow-box rounded-xl min-h-[30rem] "
+          priority
+          objectFit="cover"
+          className="w-full h-auto shadow-box rounded-xl sm:min-h-[30rem] "
         />
 
         <div
-          className={`bg-blockBg p-4 my-auto shadow-box text-sm sm:text-base min-h-[25rem] dark:border-2 dark:border-primaryBgBtn`}
+          className={`bg-blockBg p-4 my-auto shadow-box text-sm sm:text-base min-h-[25rem] dark:border-1 dark:border-primaryBgBtn`}
         >
           <CodeBlinking />
           <div className="flex gap-4 my-4">
@@ -81,14 +83,14 @@ export function SimpleProfile() {
             <Link
               href="https://www.youtube.com/watch?v=gM9okb0Rj8g"
               target="_blank"
-              className="text-blue-500 hover:underline font-bold"
+              className="text-blue-600 hover:underline font-bold"
             >
               台視新聞
             </Link>
             <Link
               href="https://youtu.be/W75F9Ac4xD8?si=UMivWcBSsBcD8Uzp"
               target="_blank"
-              className="text-blue-500 hover:underline font-bold"
+              className="text-blue-600 hover:underline font-bold"
             >
               短片
             </Link>
