@@ -14,7 +14,9 @@ export function AboutMe() {
             alt="aboutMe"
             width={480}
             height={360}
-            className="rounded-xl max-h-[10rem] max-w-[7rem]"
+            priority
+            objectFit="cover"
+            className="rounded-xl max-h-[10rem] max-w-[7rem] shadow-box"
           ></Image>
         </div>
         <div className="bg-blockBg p-4 my-4 shadow-box sm:max-w-[80%] leading-8 tracking-wider dark:border-1 dark:border-primaryBgBtn relative">
