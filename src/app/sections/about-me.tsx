@@ -8,7 +8,7 @@ export function AboutMe() {
         utMe
       </div>
       <div className="sm:flex gap-3 relative">
-        <div className=" items-center absolute -top-16 z-10 right-[43%] sm:hidden block">
+        <div className=" items-center absolute -top-16 z-10 right-[39%] sm:hidden block">
           <Image
             src="/aboutMe.jpg"
             alt="aboutMe"
