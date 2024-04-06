@@ -7,7 +7,7 @@ import { Stats } from './sections/stats';
 
 export default function Home() {
   return (
-    <div className="bg-mainBg text-mainBg-foreground rounded-xl">
+    <div className="bg-mainBg text-mainBg-foreground rounded-xl text-sm sm:text-base">
       <SimpleProfile />
       <AboutMe />
       <Stats />
