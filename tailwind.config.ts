@@ -62,6 +62,10 @@ const config = {
           DEFAULT: 'hsl(var(--blockBg))',
           foreground: 'hsl(var(--blockBg-foreground))',
         },
+        primaryBgBtn: {
+          DEFAULT: 'hsl(var(--primaryBgBtn))',
+          foreground: 'hsl(var(--primaryBgBtn-foreground))',
+        },
       },
       borderRadius: {
         lg: 'var(--radius)',

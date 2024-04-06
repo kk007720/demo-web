@@ -48,7 +48,7 @@ export function CodeBlinking() {
   }, [text, index, isDeleting, texts]);
 
   return (
-    <div className="flex items-center flex-wrap">
+    <div className="flex items-center flex-wrap text-xs">
       <span>
         &lt;<span className="text-green-500 font-bold">code</span>&gt; Website
         tech: <span className="font-bold">{text}</span>

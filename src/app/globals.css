@@ -33,6 +33,9 @@
 
     --blockBg: 40 30% 90%;
 
+    --primaryBgBtn: 30 30% 50%;
+    --primaryBgBtn-foreground: 30 20% 90%;
+
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
@@ -70,6 +73,9 @@
 
     --blockBg: 0 0% 17%;
 
+    --primaryBgBtn: 222.2 84% 4.9%;
+    --primaryBgBtn-foreground: 210 40% 98%;
+
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
@@ -87,8 +93,10 @@
 
 @layer utilities {
   .shadow-box {
-    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2),
-      10px 10px 20px rgba(255, 255, 255, 0.2);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25),
+      /* 中等模糊的深色陰影 */ 10px 10px 20px rgba(0, 0, 0, 0.15),
+      /* 更大模糊度和更遠的偏移量，增加深度感 */ inset 0px 0px 10px
+        rgba(255, 255, 255, 0.1); /* 添加一个内阴影以增加层次感 */
     border-radius: 12px; /* 圓角邊框 */
   }
 }
