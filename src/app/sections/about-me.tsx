@@ -8,17 +8,17 @@ export function AboutMe() {
         utMe
       </div>
       <div className="sm:flex gap-3 relative">
-        <div className=" items-center absolute -top-16 z-10 right-[39%] sm:hidden block">
+        <div className=" items-center absolute -top-16 z-10 right-[35%] sm:hidden block">
           <Image
             src="/aboutMe.jpg"
             alt="aboutMe"
             width={480}
             height={360}
-            className="rounded-xl max-h-[10rem] max-w-[5rem]"
+            className="rounded-xl max-h-[10rem] max-w-[7rem]"
           ></Image>
         </div>
         <div className="bg-blockBg p-4 my-4 shadow-box sm:max-w-[80%] leading-8 tracking-wider dark:border-1 dark:border-primaryBgBtn relative">
-          <div className="pt-12 sm:pt-0">
+          <div className="pt-[5rem] sm:pt-0">
             <p>
               『學習、挑戰』是我工作以來的精神糧食，突破新的技術，創造新的應用，看著使用者的使用給予回饋，
               就是我工作成就最大的來源。生成式AI的出現，使得系統不再單一不再只尋求效能的突破，可以將AI融合進任一系統，
