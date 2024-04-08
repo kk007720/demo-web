@@ -23,15 +23,15 @@ const SocialMediaSection = () => {
 
 const QuickIntroSection = () => {
   return (
-    <div className="my-4 tracking-wider leading-8">
+    <div className="my-4 tracking-wider leading-8 font-mono text-justify">
       <span>
         畢業於國立臺北科技大學資訊工程系，擁有
         <span className="font-bold">豐富的web開發經驗以及生成式AI應用經驗</span>
-        ，包括使用PHP、
-        <span className="font-bold">React.jS</span>
-        <span className="font-bold">、TypeScript、Next.js</span>、Node.js 以及
+        ，包括使用PHP、Node.js
+        <span className="font-bold">、React.jS、Next.js</span>
+        <span className="font-bold">、TypeScript</span>以及
         <span className="font-bold">企業級Open AI, Google Gemini</span>
-        。於任職期間曾開發過ERP、員工福利系統、倉儲系統Barcode等等，並於2020起負責開發台北市教育局AI智慧平台，
+        。於任職期間曾開發過ERP、員工福利系統、倉儲系統Barcode等等，並於2022年起負責開發台北市教育局AI智慧平台，
         <span className="font-bold">擅長解決問題並創新應用AI solutions。</span>
       </span>
     </div>
