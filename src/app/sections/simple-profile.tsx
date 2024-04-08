@@ -60,7 +60,7 @@ const ButtonSection = () => {
 export function SimpleProfile() {
   return (
     <section className="p-6 sm:p-8 ">
-      <h1 className="font-bold text-2xl sm:text-3xl mb-4">Kuo CHia Ming</h1>
+      <h1 className="font-bold text-2xl sm:text-3xl mb-4">Kuo Chia Ming</h1>
       <div className="grid sm:grid-cols-2 grid-cols-1 gap-2 sm:gap-4">
         <Image
           src={'/personal.jpg'}

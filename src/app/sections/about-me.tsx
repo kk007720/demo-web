@@ -65,7 +65,7 @@ export function AboutMe() {
               <div className="flex items-center gap-2">
                 <MessageSquareHeart className="w-4 h-4" />
                 <span className="font-bold">興趣:</span>
-                <span>Movie appreciation, Traveling, Dog walking</span>
+                <span>Dog Walking, Traveling</span>
               </div>
               <div className="flex items-center gap-2 flex-row">
                 <GraduationCap className="w-4 h-4" />
