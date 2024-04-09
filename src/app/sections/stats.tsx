@@ -10,10 +10,10 @@ interface SingleStatProps {
 const SingleStat = ({ icon, text, subText, measure }: SingleStatProps) => {
   return (
     <div className="bg-blockBg rounded-lg shadow-box py-4 font-bold px-2">
-      <div className="flex flex-col justify-center items-center gap-2">
+      <div className="flex flex-col justify-center items-center gap-2 text-center">
         {icon}
         <div>{text}</div>
-        <div className="">
+        <div className="font-normal">
           {subText}
           <span className="text-xs">{measure}</span>
         </div>
