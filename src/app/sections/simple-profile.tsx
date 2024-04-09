@@ -68,7 +68,6 @@ export function SimpleProfile() {
           width={860}
           height={680}
           priority
-          objectFit="cover"
           className="w-full h-auto shadow-box rounded-xl sm:min-h-[30rem] "
         />
 

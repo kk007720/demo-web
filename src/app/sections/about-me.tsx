@@ -5,6 +5,7 @@ import {
   Flag,
   MessageSquareHeart,
   GraduationCap,
+  Building2,
 } from 'lucide-react';
 
 export function AboutMe() {
@@ -27,12 +28,11 @@ export function AboutMe() {
             width={480}
             height={360}
             priority
-            objectFit="cover"
             className="rounded-xl max-h-[10rem] max-w-[7rem] shadow-box"
           ></Image>
         </div>
 
-        <div className="bg-blockBg p-4 my-4 shadow-box sm:max-w-[80%] leading-8 tracking-wider dark:border-1 dark:border-primaryBgBtn relative">
+        <div className="bg-blockBg p-4 mt-4 shadow-box sm:max-w-[80%] leading-8 tracking-wider  relative">
           <div className="pt-[5rem] sm:pt-0 font-mono text-justify">
             <p className="">
               『學習、挑戰』是我工作以來的精神糧食，突破新的技術，創造新的應用，看著使用者的使用給予回饋，
@@ -46,7 +46,7 @@ export function AboutMe() {
               最佳的使用者體驗、最容易維護開發的架構是我成為FE一直以來持續努力、進步的目標。
             </p>
 
-            <div className="my-3 sm:text-[14px] text-[12px] leading-[1.7rem]">
+            <div className="my-3 sm:text-[14px] text-[12px] leading-[1.8rem]">
               <div className="flex items-center gap-2">
                 <MapPinned className="w-4 h-4" />
                 <span className="font-bold">地點:</span>
@@ -77,9 +77,15 @@ export function AboutMe() {
                     width={20}
                     height={20}
                     className="rounded w-full max-h-6"
+                    quality={80}
                   />
                 </div>
                 國立臺北科技大學, 資訊工程系
+              </div>
+              <div className="flex items-center gap-2">
+                <Building2 className="w-4 h-4" />
+                <span className="font-bold">現職:</span>
+                <span>宜眾資訊股份有限公司(帆宣集團)</span>
               </div>
             </div>
           </div>
