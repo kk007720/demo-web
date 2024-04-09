@@ -9,7 +9,7 @@ interface SingleStatProps {
 
 const SingleStat = ({ icon, text, subText, measure }: SingleStatProps) => {
   return (
-    <div className="bg-blockBg rounded-lg shadow-box py-4 font-bold px-2">
+    <div className="bg-blockBg rounded-lg shadow-box py-4 font-bold px-2 min-h-[10rem] flex flex-col justify-center items-center">
       <div className="flex flex-col justify-center items-center gap-2 text-center">
         {icon}
         <div>{text}</div>
@@ -34,7 +34,7 @@ export function Stats() {
   return (
     <section className="p-6 sm:p-8">
       {renderTitle()}
-      <div className="grid grid-cols-4 gap-x-2 mt-4">
+      <div className="grid sm:grid-cols-4 grid-cols-2 gap-2 mt-4">
         <SingleStat
           icon={<Calendar />}
           text="Years of experience"
@@ -43,9 +43,9 @@ export function Stats() {
         />
         <SingleStat
           icon={<ShieldCheck />}
-          text="Certificate"
+          text="Microsoft Certificate"
           subText={'Introduce to python for data Science'}
-          measure=" / 微軟, 2019"
+          measure=" / 2019"
         />
         <SingleStat
           icon={<ShieldCheck />}
