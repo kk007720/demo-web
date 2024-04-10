@@ -3,16 +3,15 @@ import React, { useState, useEffect } from 'react';
 
 export function CodeBlinking() {
   const texts = [
-    'Next, React, ...',
-    'TypeScript, Tailwind css...',
-    'Php, Html, Javascript ...',
+    'React, Tailwind ...',
+    'TypeScript, Next ...',
+    'Php, Html ...',
   ];
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
   const [showCursor, setShowCursor] = useState(true);
 
-  // 光标闪烁效果
   useEffect(() => {
     const cursorTimer = setTimeout(() => {
       setShowCursor((prev) => !prev);
@@ -25,21 +24,18 @@ export function CodeBlinking() {
     let typingTimer: ReturnType<typeof setTimeout>;
 
     if (isDeleting) {
-      // 如果处于删除阶段，加速删除
       typingTimer = setTimeout(() => {
         setText((prev) => prev.slice(0, -1));
         if (text === '') {
           setIsDeleting(false);
-          setIndex((prev) => (prev + 1) % texts.length); // 循环到下一个文本
+          setIndex((prev) => (prev + 1) % texts.length);
         }
       }, 50);
     } else {
-      // 打印文本
       typingTimer = setTimeout(() => {
         setText(texts[index].slice(0, text.length + 1));
         if (text === texts[index]) {
-          // 等待一段时间后开始删除文本
-          setTimeout(() => setIsDeleting(true), 1000); // 可以调整等待时间
+          setTimeout(() => setIsDeleting(true), 1000);
         }
       }, 150);
     }
