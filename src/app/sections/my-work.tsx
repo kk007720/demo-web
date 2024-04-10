@@ -77,10 +77,10 @@ export function MyWork() {
                 onClick={() => {}}
               >
                 <Link href={`${project.resumeCakeUrl}`} target="_blank">
-                  <div className="text-xs py-1 w-full">{project.title}</div>
+                  <div className="text-xs py-1">{project.title}</div>
                   <Card>
                     <CardContent className="flex aspect-square items-center justify-center p-2 bg-blockBg rounded-lg">
-                      <div className="text-1xl font-semibold">
+                      <div>
                         {project.imageUrl.length > 1 ? (
                           project.imageUrl.map((p, index) => (
                             <Image
@@ -89,6 +89,7 @@ export function MyWork() {
                               width={300}
                               height={300}
                               className="rounded mb-2"
+                              style={{ width: 'auto', height: 'auto' }}
                               alt={`${project.title}-${index}`}
                             />
                           ))
@@ -97,7 +98,8 @@ export function MyWork() {
                             src={project.imageUrl[0]}
                             width={300}
                             height={300}
-                            className="rounded "
+                            className="rounded"
+                            style={{ width: 'auto', height: 'auto' }}
                             alt={`${project.title}-${index}`}
                           ></Image>
                         )}
@@ -108,8 +110,8 @@ export function MyWork() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="sm:flex hidden" />
-          <CarouselNext className="sm:flex hidden" />
+          <CarouselPrevious className="" />
+          <CarouselNext className="" />
         </Carousel>
       </div>
     </section>
