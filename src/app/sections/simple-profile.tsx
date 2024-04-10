@@ -45,7 +45,14 @@ const ButtonSection = () => {
         variant={'primary'}
         className="border-2 border-yellow-900 dark:border-green-800 font-semibold"
       >
-        Resume
+        <Link
+          href={
+            'https://drive.google.com/file/d/1sVvGuvbR-XFFAIcyBNvp4wL4uInPi_xj/view?usp=sharing'
+          }
+          target="_blank"
+        >
+          Resume
+        </Link>
       </Button>
       <Button
         variant={'primary'}
