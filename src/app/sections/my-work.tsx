@@ -13,18 +13,18 @@ import Image from 'next/image';
 
 const workingMap = [
   {
-    title: '正隆股份有限公司EIP系統',
-    description:
-      '●整合使用60年的舊版EIP●本人一條龍撰寫●整合各系統快速簽核提示●紀錄各item員工點擊及使用頻率⭐榮獲年度新人晉升',
-    imageUrl: ['/project-1-eipMain.png'],
-    resumeCakeUrl: 'https://www.cakeresume.com/portfolios/eip-bec092',
-  },
-  {
     title: '臺北市教育局酷AI學習平台',
     description:
       '●企業級生成式AI應用教學●本人企劃撰寫●學生學習紀錄分析●React Js',
     imageUrl: ['/project-2-coolAi.png', '/project-2-cooAiChildren.jpeg'],
     resumeCakeUrl: 'https://www.cakeresume.com/portfolios/ai-aa20ce',
+  },
+  {
+    title: '正隆股份有限公司EIP系統',
+    description:
+      '●整合使用60年的舊版EIP●本人一條龍撰寫●整合各系統快速簽核提示●紀錄各item員工點擊及使用頻率⭐榮獲年度新人晉升',
+    imageUrl: ['/project-1-eipMain.png'],
+    resumeCakeUrl: 'https://www.cakeresume.com/portfolios/eip-bec092',
   },
   {
     title: '儲運Ｅ化系統(條碼槍串接)',
@@ -58,6 +58,7 @@ export function MyWork() {
       </div>
     );
   }
+
   return (
     <section className="p-6 sm:p-8">
       {renderTitle()}
@@ -65,7 +66,6 @@ export function MyWork() {
         <Carousel
           opts={{
             align: 'start',
-            watchDrag: true,
           }}
           className="w-full md:max-w-[55rem] max-w-[45rem] text-center"
         >
@@ -73,7 +73,7 @@ export function MyWork() {
             {workingMap.map((project, index) => (
               <CarouselItem
                 key={index}
-                className="lg:basis-1/5 md:basis-1/4 sm:basis-1/3 basis-1/2 cursor-pointer"
+                className="sm:basis-1/3 cursor-pointer"
                 onClick={() => {}}
               >
                 <Link href={`${project.resumeCakeUrl}`} target="_blank">
@@ -82,18 +82,16 @@ export function MyWork() {
                     <CardContent className="flex aspect-square items-center justify-center p-2 bg-blockBg rounded-lg">
                       <div className="text-1xl font-semibold">
                         {project.imageUrl.length > 1 ? (
-                          project.imageUrl.map((p, index) => {
-                            return (
-                              <Image
-                                key={`projectImage-${index}`}
-                                src={p}
-                                width={300}
-                                height={300}
-                                className="rounded mb-2"
-                                alt={`${project.title}-${index}`}
-                              />
-                            );
-                          })
+                          project.imageUrl.map((p, index) => (
+                            <Image
+                              key={`projectImage-${index}`}
+                              src={p}
+                              width={300}
+                              height={300}
+                              className="rounded mb-2"
+                              alt={`${project.title}-${index}`}
+                            />
+                          ))
                         ) : (
                           <Image
                             src={project.imageUrl[0]}
