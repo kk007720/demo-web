@@ -47,6 +47,19 @@ const workingMap = [
     imageUrl: ['/project-5-lottery1.png', '/project-5-lottery2.png'],
     resumeCakeUrl: 'https://www.cakeresume.com/portfolios/c0dc49',
   },
+  {
+    title: '異常案例呈報簽核系統',
+    description:
+      '●提供各個造紙廠呈報機器異常案例●後台串接提供管理員設定簽核會辦人員',
+    imageUrl: ['/project-6-case.webp'],
+    resumeCakeUrl: 'https://www.cakeresume.com/portfolios/7167f5',
+  },
+  {
+    title: '工業紙箱計算模組',
+    description: ' ●公司亮點●公佈欄、後台●工紙材質快速匹配與耐壓計算',
+    imageUrl: ['/project-8-calculate.gif'],
+    resumeCakeUrl: 'https://www.cakeresume.com/portfolios/2effc0',
+  },
 ];
 
 export function MyWork() {
@@ -77,7 +90,9 @@ export function MyWork() {
                 onClick={() => {}}
               >
                 <Link href={`${project.resumeCakeUrl}`} target="_blank">
-                  <div className="text-xs py-1">{project.title}</div>
+                  <div className="text-xs py-1 font-semibold">
+                    {project.title}
+                  </div>
                   <Card>
                     <CardContent className="flex aspect-square items-center justify-center p-2 bg-blockBg rounded-lg">
                       <div>
