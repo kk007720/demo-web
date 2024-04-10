@@ -55,6 +55,12 @@ const workingMap = [
     resumeCakeUrl: 'https://www.cakeresume.com/portfolios/7167f5',
   },
   {
+    title: '油料補助平台',
+    description: '●公務車月週報整合顯示●簽核頁面RWD套版修改',
+    imageUrl: ['/project-7-car.webp'],
+    resumeCakeUrl: 'https://www.cakeresume.com/portfolios/21d14c',
+  },
+  {
     title: '工業紙箱計算模組',
     description: ' ●公司亮點●公佈欄、後台●工紙材質快速匹配與耐壓計算',
     imageUrl: ['/project-8-calculate.gif'],
