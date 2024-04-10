@@ -24,7 +24,7 @@ const workingMap = [
     description:
       '●企業級生成式AI應用教學●本人企劃撰寫●學生學習紀錄分析●React Js',
     imageUrl: ['/project-2-coolAi.png', '/project-2-cooAiChildren.jpeg'],
-    resumeCakeUrl: 'https://ailms.tp.edu.tw/',
+    resumeCakeUrl: 'https://www.cakeresume.com/portfolios/ai-aa20ce',
   },
   {
     title: '儲運Ｅ化系統(條碼槍串接)',
