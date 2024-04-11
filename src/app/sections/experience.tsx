@@ -40,7 +40,7 @@ export function Experience({ className }: ExperienceProps) {
           </div>
         </div>
         <div className="border-t border-mainBg-foreground mb-6 sm:mb-3"></div>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[70%] sm:top-auto">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[57%] sm:top-auto">
           <div className="border dark:border-green-700 border-primaryBgBtn rounded-xl bg-blockBg flex justify-center w-[5.5rem] max-h-[5%]">
             <span className="font-bold text-[10px]">2020 - 2022</span>
           </div>
