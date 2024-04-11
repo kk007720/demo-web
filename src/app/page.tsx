@@ -8,7 +8,7 @@ import { Education } from './sections/education';
 
 export default function Home() {
   return (
-    <div className="bg-mainBg text-mainBg-foreground rounded-xl text-sm sm:text-base max-w-[1280px]">
+    <div className="bg-mainBg text-mainBg-foreground rounded-xl text-sm sm:text-base max-w-[1280px] mb-12">
       <SimpleProfile />
       <AboutMe />
       <Stats />
@@ -17,7 +17,7 @@ export default function Home() {
         <Education className="sm:w-1/2 w-full" />
         <Experience className="sm:w-1/2 w-full mt-4 sm:mt-0" />
       </div>
-      <GetInTouch />
+      {/* <GetInTouch /> */}
     </div>
   );
 }
