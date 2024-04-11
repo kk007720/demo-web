@@ -36,14 +36,14 @@ export function AboutMe() {
           <div className="pt-[5rem] sm:pt-0 font-mono text-justify">
             <p className="">
               『學習、挑戰』是我工作以來的精神糧食，突破新的技術，創造新的應用，看著使用者的使用給予回饋，
-              就是我工作成就最大的來源。生成式AI的出現，使得系統不再單一不再只尋求效能的突破，可以將AI融合進任一系統，
-              我身為一個FrontEnd
-              Developer，除了與時俱進更新網頁技術的技能，也大量使用生成式AI，
+              是我工作成就快樂的來源。由於生成式AI的出現，使得系統不再單一不再只尋求效能的突破，可以將AI融合進系統，
+              不管是資料的搜集，還是現成的大型模型使用，都可以讓系統煥然一新，使用性更上一層樓。
+              我雖然身為一個FrontEnd
+              Developer，除了與時俱進的更新網頁技術技能，也對AI充滿興趣，平常生活、工作就會大量使用生成式AI，
+              甚至跟chat gpt或是google gemini聊天。
               對我來說coding不再複雜，查詢Document不再耗時，
-              應證指令不再繁瑣。雖然AI不一定提供最好的solution，但他給予你一個方向去優化這個solution。
-            </p>
-            <p>
-              最佳的使用者體驗、最容易維護開發的架構是我成為FE一直以來持續努力、進步的目標。
+              複雜指令不再繁瑣，找bug還多了一個小幫手，雖然AI不一定提供最好的solution，但他給予你一個方向去優化這個solution。
+              好的使用者體驗、容易維護開發的架構以及具有創意前衛的功能應用是我成為FE一直以來持續努力、進步的目標。
             </p>
 
             <div className="my-3 sm:text-[14px] text-[12px] leading-[1.8rem]">

@@ -58,7 +58,9 @@ const ButtonSection = () => {
         variant={'primary'}
         className="border-2 rounded-2xl font-semibold border-white dark:border-white"
       >
-        Contact
+        <Link href={'mailto:kk007720@gmail.com'} target="_blank">
+          Contact
+        </Link>
       </Button>
     </div>
   );
