@@ -41,6 +41,12 @@ const workingMap = [
     resumeCakeUrl: 'https://www.cakeresume.com/portfolios/a245b9',
   },
   {
+    title: '台灣互華股份有限公司',
+    description: 'RWD網頁製作',
+    imageUrl: ['/project-9-akmax.png'],
+    resumeCakeUrl: 'http://www.akmax.com.tw/',
+  },
+  {
     title: '發票抽獎系統',
     description:
       '●抽獎文案自動生成(網址)●Rwd 模板使用●串接財政部發票API回傳發票明細●系統自動抽獎生成csv',
