@@ -43,6 +43,7 @@ const ButtonSection = () => {
     <div className="flex gap-3 justify-center">
       <Button
         variant={'primary'}
+        asChild
         className="border-2 border-yellow-900 dark:border-green-800 font-semibold"
       >
         <Link
@@ -55,6 +56,7 @@ const ButtonSection = () => {
         </Link>
       </Button>
       <Button
+        asChild
         variant={'primary'}
         className="border-2 rounded-2xl font-semibold border-white dark:border-white"
       >
