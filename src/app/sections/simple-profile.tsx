@@ -7,9 +7,9 @@ import Link from 'next/link';
 const SocialMediaSection = () => {
   return (
     <div className="flex flex-wrap gap-3 items-center">
-      <Link href="https://github.com/kk007720/demo-web" target="_blank">
+      {/* <Link href="https://github.com/kk007720/demo-web" target="_blank">
         <Github className="w-5 h-5 cursor-pointer" />
-      </Link>
+      </Link> */}
 
       <Link
         href="https://www.linkedin.com/in/chia-ming-kuo-9bb963157/"
