@@ -62,7 +62,7 @@ export function Experience({ className }: ExperienceProps) {
   function renderChungLongSection() {
     return (
       <>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[57%] sm:top-auto">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[44.5%] sm:top-auto">
           <TimeLabel text="2020 - 2022" />
           <div className="text-sm">正隆股份有限公司</div>
         </div>
@@ -103,7 +103,7 @@ export function Experience({ className }: ExperienceProps) {
   function renderSeedSection() {
     return (
       <>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[57%] sm:top-auto">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[73.5%] sm:top-auto">
           <TimeLabel text="2019 - 2020" />
           <div className="text-sm">喜德教育股份有限公司</div>
         </div>
@@ -121,7 +121,7 @@ export function Experience({ className }: ExperienceProps) {
   function renderWekonSection() {
     return (
       <>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[57%] sm:top-auto">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[84%] sm:top-auto">
           <TimeLabel text="2019 - 2020" />
           <div className="text-sm">威肯資訊管理顧問股份有限公司</div>
         </div>
