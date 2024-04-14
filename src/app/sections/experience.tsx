@@ -17,7 +17,7 @@ export function Experience({ className }: ExperienceProps) {
   function renderEzoomSection() {
     return (
       <>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute top-2 sm:top-auto sm:relative -left-5 sm:-left-5">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute top-auto sm:relative -left-5 sm:-left-5">
           <TimeLabel text="2022 - Present" />
           <div className="text-sm">宜眾資訊股份有限公司(帆宣集團)</div>
         </div>
@@ -62,11 +62,11 @@ export function Experience({ className }: ExperienceProps) {
   function renderChungLongSection() {
     return (
       <>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[44.5%] sm:top-auto">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-auto">
           <TimeLabel text="2020 - 2022" />
           <div className="text-sm">正隆股份有限公司</div>
         </div>
-        <div className="pt-[2.6rem] sm:pt-0 px-4 pb-4">
+        <div className="pt-[3.5rem] sm:pt-0 px-4 pb-4">
           <p className="font-semibold">全端工程師</p>
           <div className="text-sm leading-7 mt-1 text-justify">
             於在職期間開發數個公司內部系統，包括翻新用了60年舊版的全公司EIP，由我使用php,
@@ -103,11 +103,11 @@ export function Experience({ className }: ExperienceProps) {
   function renderSeedSection() {
     return (
       <>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[73.5%] sm:top-auto">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-auto">
           <TimeLabel text="2019 - 2020" />
           <div className="text-sm">喜德教育股份有限公司</div>
         </div>
-        <div className="pt-[2.6rem] sm:pt-0 px-4 pb-4">
+        <div className="pt-[3.5rem] sm:pt-0 px-4 pb-4">
           <p className="font-semibold">Steam教育授課老師</p>
           <div className="text-sm leading-7 mt-1 text-justify">
             於大學兼職授課老師，培養表達能力、場控以及規劃課程設計能力，
@@ -121,11 +121,11 @@ export function Experience({ className }: ExperienceProps) {
   function renderWekonSection() {
     return (
       <>
-        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-[84%] sm:top-auto">
+        <div className="flex sm:flex-row sm:items-center py-3 gap-2 absolute sm:relative -left-5 sm:-left-5 top-auto">
           <TimeLabel text="2019 - 2020" />
           <div className="text-sm">威肯資訊管理顧問股份有限公司</div>
         </div>
-        <div className="pt-[2.6rem] sm:pt-0 px-4 pb-4">
+        <div className="pt-[3.5rem] sm:pt-0 px-4 pb-4">
           <p className="font-semibold">全端工程師（實習）</p>
           <div className="text-sm leading-7 mt-1 text-justify">
             於北科大創業管理課程，由教授推薦邀請至實習工作、研究開發。
