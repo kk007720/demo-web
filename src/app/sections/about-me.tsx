@@ -33,17 +33,15 @@ export function AboutMe() {
         </div>
 
         <div className="bg-blockBg p-4 mt-4 shadow-box sm:max-w-[80%] leading-8 tracking-wider  relative">
-          <div className="pt-[5rem] sm:pt-0 font-mono text-justify">
-            <p className="">
+          <div className="pt-[5rem] sm:pt-0 ">
+            <p className="text-justify">
               『學習、挑戰』是我工作以來的精神糧食，突破新的技術，創造新的應用，看著使用者的使用給予回饋，
               是我工作成就快樂的來源。由於生成式AI的出現，使得系統不再單一不再只尋求效能的突破，可以將AI融合進系統，
-              不管是資料的搜集，還是現成的大型模型使用，都可以讓系統煥然一新，使用性更上一層樓。
-              我雖然身為一個FrontEnd
+              不管是資料的搜集，還是現成的大型模型使用，都可以讓系統煥然一新，使用性更上一層樓。我雖然身為一個FrontEnd
               Developer，除了與時俱進的更新網頁技術技能，也對AI充滿興趣，平常生活、工作就會大量使用生成式AI，
-              甚至跟chat gpt或是google gemini聊天。
-              對我來說coding不再複雜，查詢Document不再耗時，
-              複雜指令不再繁瑣，找bug還多了一個小幫手，雖然AI不一定提供最好的solution，但他給予你一個方向去優化這個solution。
-              好的使用者體驗、容易維護開發的架構以及具有創意前衛的功能應用是我成為FE一直以來持續努力、進步的目標。
+              甚至跟chat gpt或是google
+              gemini聊天。對我來說coding不再複雜，查詢Document不再耗時，複雜指令不再繁瑣，找bug還多了小幫手，雖然AI不一定提供最好最正確的solution，但給予我一個方向去優化、解決這個task。
+              好的使用者體驗、易維護開發的架構以及具有創意前衛的功能應用是我成為FE一直以來持續努力、進步的目標。
             </p>
 
             <div className="my-3 sm:text-[14px] text-[12px] leading-[1.8rem]">
@@ -80,7 +78,7 @@ export function AboutMe() {
                     quality={80}
                   />
                 </div>
-                國立臺北科技大學, 資訊工程系
+                國立臺北科技大學, 資訊工程學系
               </div>
               <div className="flex items-center gap-2">
                 <Building2 className="w-4 h-4" />

@@ -34,7 +34,7 @@ export function Stats() {
   return (
     <section className="p-6 sm:p-8">
       {renderTitle()}
-      <div className="grid sm:grid-cols-4 grid-cols-2 gap-2 mt-4">
+      <div className="grid grid-cols-3  gap-2 mt-4">
         <SingleStat
           icon={<Calendar />}
           text="Years of experience"
@@ -53,12 +53,12 @@ export function Stats() {
           subText="710"
           measure=" /2022"
         />
-        <SingleStat
+        {/* <SingleStat
           icon={<ShieldCheck />}
           text="GEPT"
           subText="Intermediate"
           measure={' /2012'}
-        />
+        /> */}
       </div>
     </section>
   );

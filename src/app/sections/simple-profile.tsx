@@ -23,16 +23,22 @@ const SocialMediaSection = () => {
 
 const QuickIntroSection = () => {
   return (
-    <div className="my-4 tracking-wider leading-8 font-mono text-justify">
+    <div className="my-4 tracking-wider leading-8 text-justify">
       <span>
-        畢業於國立臺北科技大學資訊工程系，擁有
-        <span className="font-bold">豐富的web開發經驗以及生成式AI應用經驗</span>
-        ，包括使用PHP、Node.js
-        <span className="font-bold">、React.jS、Next.js</span>
-        <span className="font-bold">、TypeScript</span>以及
-        <span className="font-bold">企業級Open AI, Google Gemini</span>
-        。於任職期間曾開發過ERP、員工福利系統、倉儲系統Barcode等等，並於2022年起負責開發台北市教育局AI智慧平台，
-        <span className="font-bold">擅長解決問題並創新應用AI solutions。</span>
+        畢業於國立臺北科技大學資訊工程學系，擁有
+        <span className="font-semibold">
+          豐富的web開發經驗以及企業級生成式AI應用於系統之經驗
+        </span>
+        ，歷年專案使用PHP、Node.js
+        <span className="font-semibold">、React.jS、Next.js</span>
+        <span className="font-semibold">、TypeScript</span>以及
+        <span className="font-semibold">
+          Gpt 4 /turbo/vision, Google Gemini/pro
+        </span>
+        。於任職期間曾開發過全公司ERP、員工福利系統、倉儲系統Barcode等等，並於2022年起負責開發臺北市教育局AI智慧平台，
+        <span className="font-semibold">
+          擅長解決問題，學習新技術，並創新應用AI solutions。
+        </span>
       </span>
     </div>
   );
@@ -107,7 +113,7 @@ export function SimpleProfile() {
               target="_blank"
               className="text-blue-600 hover:underline font-bold"
             >
-              短片
+              臺北市政府教育局宣傳短片
             </Link>
           </div>
         </div>
