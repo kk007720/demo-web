@@ -54,7 +54,7 @@ const ButtonSection = () => {
       >
         <Link
           href={
-            'https://drive.google.com/file/d/1zEe9PlfylDqF8E9rZ9BohaCJf_efGpye/view?usp=sharing'
+            'https://www.cakeresume.com/s--uH7B3CSVZBPiVfj8AziAUQ--/kuo-chia-ming-ntut'
           }
           target="_blank"
         >
