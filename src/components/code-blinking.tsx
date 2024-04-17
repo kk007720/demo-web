@@ -3,9 +3,9 @@ import React, { useState, useEffect } from 'react';
 
 export function CodeBlinking() {
   const texts = [
-    'React, Tailwind ...',
     'TypeScript, Next ...',
     'Php, Html ...',
+    'React, Tailwind ...',
   ];
   const [text, setText] = useState('');
   const [index, setIndex] = useState(0);
