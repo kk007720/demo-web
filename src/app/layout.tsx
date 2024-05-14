@@ -42,6 +42,7 @@ export default function RootLayout({
 
           <section className="sm:container sm:flex sm:justify-center">
             {children}
+            <Analytics />
           </section>
         </ThemeProvider>
       </body>
